@@ -1,4 +1,4 @@
-# Initialize the local directory as a Git repository
+
 git init
 
 # Add all the files in your project to be tracked
@@ -6,9 +6,3 @@ git add .
 
 # Commit the files with a descriptive message
 git commit -m "Initial commit for Chrono-Forge"
-# Rename your default branch to 'main' (standard for GitHub)
-git branch -M main
-
-# Link your local code to your GitHub repo
-# Replace <URL> with your repo link (e.g., https://github.com/JadeB/Chrono-Forge.git)
-git remote add origin <YOUR_GITHUB_REPO_URL>
